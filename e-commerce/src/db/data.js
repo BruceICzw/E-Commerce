@@ -2,26 +2,38 @@ import { AiFillStar } from "react-icons/ai";
 
 const data = [
     {
-        img: "https://m.media-amazon.com/images/l/6125yAfsJKL._AC_UX575_.jpg",
+        img: 'https://loremflickr.com/640/360',
         title: "Nike Air Monarch IV",
-        star: "<AiFillStar className='rating-star' />",
+        star: <AiFillStar className='rating-star' />,
         reviews: "(123 reviews)",
-        prevPrice: "$140,00",
+        prevPrice: "$140",
         newPrice: "200",
         company: "Nike",
         color: "white",
         category: "sneakers",
     },
     {
-        img: "https://m.media-amazon.com/images/l/6125yAfsJKL._AC_UX575_.jpg",
-        title: "Nike Air Monarch IV",
-        star: "<AiFillStar className='rating-star' />",
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
+        img: "https://loremflickr.com/640/360",
+        title: "Nike Nocta Glide",
+        star: <AiFillStar className='rating-star' />,
+        reviews: "(500 reviews)",
+        prevPrice: "$140",
         newPrice: "200",
-        company: "Nike",
+        company: "Vans",
         color: "white",
         category: "sneakers",
+    }
+    ,
+    {
+        img: "https://loremflickr.com/640/360",
+        title: "Tom Ford Formal",
+        star: <AiFillStar className='rating-star' />,
+        reviews: "(123 reviews)",
+        prevPrice: "$130",
+        newPrice: "100",
+        company: "Adidas",
+        color: "white",
+        category: "flats",
     }
     // add more objects here if needed
 ];
