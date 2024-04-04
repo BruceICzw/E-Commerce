@@ -7,6 +7,7 @@ import './index.css'
 //DAATA STORE
 import products from './db/data'
 import Card from "./components/Card";
+import ProductForm from "./components/Upload";
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null)
 
@@ -74,6 +75,7 @@ function App() {
   }
   const result = filteredData(products, selectedCategory, query);
   return <>
+  <ProductForm />
     <Sidebar handleChange={handleChange} />
     <Navigation handleInputChange={handleInputChange} />
     <Recommended handleClick={handleClick} />
